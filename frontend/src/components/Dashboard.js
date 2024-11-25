@@ -132,16 +132,10 @@ const Dashboard = () => {
                             <FontAwesomeIcon icon={faEnvelope} className="text-gray-400 text-2xl cursor-pointer hover:text-blue-500" />
                             <FontAwesomeIcon icon={faCalendarAlt} className="text-gray-400 text-2xl cursor-pointer hover:text-blue-500" />
                         </div>
-<<<<<<< HEAD:frontend/src/components/Dashboard.js
                         <div>
-                            <button className=' px-2 py-1.5 bg-blue-400' onClick={handleLogout}>
+                            <button className=' px-2 py-1.5 bg-green-400 rounded-md text-white font-semibold border-0' onClick={handleLogout}>
                                 Logout
                             </button>
-=======
-                        <div className=' align-bottom'>
-                        <p className='font-semibold text-2xl'>The todo</p>
-                        <p className='font-slim text-sm'>Just to do..</p>
->>>>>>> 413643a505ad65a86c9ad75d4e66b37a05e1fd9b:src/components/Dashboard.js
                         </div>
                     </div>
                 </div>
